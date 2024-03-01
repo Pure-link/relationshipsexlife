@@ -1,0 +1,176 @@
+body{
+    font-size: 16px;
+}
+*{
+    color: white;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: kkk;
+    src: url("font/josephsophia.ttf");
+}
+@font-face{
+    font-family: lll;
+    src: url("font/Louis\ George\ Cafe\ Bold.ttf");
+}
+@font-face{
+    font-family: ppp;
+    src: url("font/Mont-HeavyDEMO.otf");
+}
+/* @font-face{
+    font-family: ppp;
+    src: url("font/Mont-HeavyDEMO.otf");
+} */
+.container{
+    background-image: url("image/1000044079-01.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 3 / 1.2;
+    min-height: 400px;
+    position: relative;
+}
+#text14{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-family: kkk;
+    line-height: 75px;
+    font-size: 4.5em;
+}
+#blur{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 90%;
+    /* z-index: -1; */
+    filter: blur(4px);
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0,0.8),rgba(0,0,0,0.9), rgba(0,0,0,11),
+    rgba(0,0,0,1),rgba(0,0,0,1), rgba(0,0,0,1) ,rgba(0,0,0,1), rgba(0,0,0,1)
+    , rgba(0,0,0,1) ,rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1) ,rgba(0,0,0,1), rgba(0,0,0,1));
+}
+.container2{
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    padding-bottom: 50px;
+}
+h1{
+    z-index: 999;
+    margin-bottom: 40px;
+    font-family: ppp;
+    font-size: 2em;
+}
+h2{
+    margin-bottom: 20px;
+    font-family: lll;
+    font-size: 1.5em;
+
+}
+#con2{
+    width: 90%;
+    /* background-color: pink; */
+    display: grid;
+    place-items: center;
+}
+#con3{
+    margin-left: 25%;
+}
+#con4{
+    width: 70%;
+    height: 750px;
+    /* background-color: green; */
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+}
+#con4 img{
+    width: 80%;
+    min-width: 200px;
+    aspect-ratio: 2 /1 ;
+}
+#con4img1{
+    /* background-color: aqua; */
+    display: grid;
+    place-items: center;
+}
+#con4img2{
+    /* background-color: aqua; */
+    display: grid;
+    place-items: center;
+}
+#btn1{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
+.btn2{
+    height: 12.5em;
+    width: 3.125em;
+    color: white;
+    background-color: blue;
+    place-self: center;
+    margin: 0;
+}
+.bookCoverslider{
+    margin-top: 50px;
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: red; */
+    display: grid;
+    place-items: center;
+}
+#mid{
+    width: 100%;
+    /* background-color: cornflowerblue; */
+}
+.container3{
+    display: grid;
+    place-items: center;
+    color: black;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.bookReview{
+    display: flex;
+    width: calc(36% + 120px);
+    /* background-color: chocolate; */
+}
+.bookSlider{
+    width: 95%;
+    /* min-width: 250px; */
+}
+.bookSlider img{
+    width: 100%;
+}
+.btn{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 1499px){
+    body{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 1069px){
+    body{
+        font-size: 10px;
+    }
+}
+/* @media only screen and (max-width: 459px){
+    body{
+        font-size: 5px;
+    }
+} */
